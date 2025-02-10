@@ -1,0 +1,41 @@
+.header_outer_container {
+  height: 10vh;
+  background-color: black;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  color: white;
+  transition: all 0.5s ease-in;
+
+  top: 0;
+  z-index: 1;
+  padding: 0 30px;
+  
+}
+
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140%;
+    cursor: pointer;
+}
+
+.header_right ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    cursor: pointer;
+
+}
